@@ -1,6 +1,6 @@
 const getZoraFeeRecipients = async () => {
   try {
-    const response = await fetch("https://api.onchainmagic.xyz/api/zora/feeRecipients")
+    const response = await fetch("https://api.myco.wtf/api/zora/feeRecipients")
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`)
     }
